@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tips</title>
+    <link rel="stylesheet" href="C:\Users\Tevoo\Documents\PROJECT (HTML-CSS)\css\Login.css">
+</head>
+<body>
+
+
+
+  <div class="interface">
+    
+    <video src="C:\Users\Tevoo\Documents\PROJECT (HTML-CSS)\videos\video.mp4" 
+    autoplay loop muted></video>
+   <div class="overlay"></div>
+   
+    <div class="frombox">
+      <div class="buttonbox">
+        <div id="btn"></div>
+        
+        <button type="button" class="toogle-btn" onclick="login()" >Log In</button>
+        <button type="button" class="toogle-btn" onclick="register()">Register</button>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com"><img src="C:\Users\Tevoo\Documents\PROJECT (HTML-CSS)\images\facebook (1).png" title="Facebook"></a>
+        <a href="https://www.google.com"><img src="C:\Users\Tevoo\Documents\PROJECT (HTML-CSS)\images\search.png" title="Google"></a>
+        <a href="https://www.twitter.com"><img src="C:\Users\Tevoo\Documents\PROJECT (HTML-CSS)\images\twitter.png" title="Twitter"></a>
+      </div>
+      <form id="Login" class="input-group" method="post" action="Project.php">
+        <input type="text" class="input-field" placeholder="User name" required>
+        <input type="password" class="input-field" placeholder="Password" required>
+        <input type="checkbox" class="checkbox"><span>Remember Password</span><br>
+        <button type="submit" class="submit-btn">Log in</button>
+      </form>
+
+      <form id="Register" class="input-group" method="post" action="Project.php">
+        <input type="text" class="input-field" placeholder="User name" required>
+        <input type="text" class="input-field" placeholder="E-Mail" required>
+        <input type="text" class="input-field" placeholder="Password" required>
+        <input type="text" class="input-field" placeholder="Confirm Password" required>
+        <input type="checkbox" class="checkbox"><span>I agree to all terms & conditions</span><br>
+        <button type="submit" class="submit-btn">Register</button> 
+      </form>
+    </div>
+  </div>
+
+  <script>
+    var x = document.getElementById("Login")
+    var y = document.getElementById("Register")
+    var z = document.getElementById("btn")
+
+    function register(){
+      x.style.left = "-400px"
+      y.style.left = "50px"
+      z.style.left = "110px"
+    }
+
+    function login(){
+      x.style.left = "50px"
+      y.style.left = "450px"
+      z.style.left = "0px"
+    }
+
+
+  </script>
+
+</body>
+</html>
+
+<!--
+
+-->
