@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}  
+
+.background{
+    position: relative;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 1px;
+    bottom: 50px;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.background-logo{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    z-index: 0;
+    height: 100%;
+    left: 25.5%;
+    position: absolute;
+    top: 0;
+    bottom: 5000px;
+    right: 0;
+    transition: ease 0.2s;
+    filter: contrast(5);
+    transition: ease 0.8s;
+    
+}
+
+.background-logo:hover{
+    transform: scale(1.08);
+    z-index: 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background-color: rgba(0, 0, 0, 0.5);
+    mix-blend-mode: overlay;
+    filter: blur(8);
+}
+
+.text{
+   text-decoration: none;
+   position: absolute;
+   color: #fff;
+   height: 0;
+   right: 165px;
+   bottom: 24%;
+   margin: 10px -20px;
+   width: 1145px;
+   font-size: 1.5em;
+   font-weight: 500;
+}
+
+.showcase{
+    width: 100%;
+    left: 0;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    padding: 10% 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    border: 3px solid rgb(1, 250, 120);
+    width: 102%;
+    position: fixed;
+    top: -8px;
+    left: -3px;
+    background-color: #fff;
+    padding: 6px 3.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto;
+    z-index: 1;
+}
+
+nav .logo{
+    width: 238px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+nav ul li a:hover{
+    color: rgb(1, 250, 120);
+    transform: scale(1.1);
+}
+
+.title-wrap{
+    text-align: center;
+    padding: 1rem 20;
+    margin-top: -9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.about-text h2{
+    position: absolute;
+    padding-left: 44.7%;
+    top: 25%;
+    bottom: 10x;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+
+.about-image{
+    padding-left: 70px;
+}
+
+.about-text p{
+    position: absolute;
+    width: 550px;
+    left: 50%;
+    top: 34%;
+    font-size: 1.2em;
+}
+
+.Fact-title h2{
+    position: absolute;
+    left: 42%;
+    bottom: 1px;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+
+.facts-item .photos{
+    width: max-content;
+    position: absolute;
+    left: 15%;
+    bottom: -220px;
+}
+
+.facts-item .umberella{
+    position: absolute;
+    left: 47.2%;
+    bottom: -220px;
+}
+
+.facts-item .mountain{
+    position: absolute;
+    left: 79%;
+    bottom: -220px;
+}
+
+.footer-item{
+    border-color: rgb(0, 0, 0);
+    width: 100%;
+    position: absolute;
+    top: 120%;
+    left: -3px;
+    background-color: rgb(17, 16, 16);
+    padding: -30% 4%;
+    padding-bottom: 170px;
+    margin: 180px auto;
+    z-index: 1;
+}
+
+.footer-item title{
+    position: absolute;
+    
+}
+
+
+.footer-item h2{
+    position: relative;
+    color: #fff;
+    top: 50%;
+    bottom: 90%;
+    padding: 4% 26%;
+    padding-bottom: 1px;
+    left: 3.2%;
+    font-weight: 600;
+    font-size: 1.9em;
+}
+
+.socialicons-footer{
+    width: 300px;
+    position: absolute;
+    padding-top: 160px;
+    left: 61.8%;
+    text-decoration: none;
+    list-style: none;
+}
+
+.socialicons-footer li{
+    margin: 0.6em;
+}
+
+.footer-item p{
+    position: absolute;
+    color: #fff;
+    width: 330px;
+    top: 35%;
+    left: 60px;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
